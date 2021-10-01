@@ -90,10 +90,20 @@ button:active {
 }
 
 #section_1 h1 {
-  font-size: 6em;
+  font-size: 6rem;
 }
+
 #sec_1_img {
   width: 50vw;
+}
+
+#section_1 h3 {
+  font-size: 5rem;
+  align-self: center;
+}
+
+.hashtag {
+  height: 40vw;
 }
 
 /* Section 2 */
