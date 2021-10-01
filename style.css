@@ -94,7 +94,8 @@ button:active {
 }
 
 #sec_1_img {
-  width: 50vw;
+  background-color: white;
+  height: 20vw;
 }
 
 #section_1 h3 {
