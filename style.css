@@ -1,1 +1,105 @@
+/* Overordnet css */
 
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #0419ad;
+  --link-color: #fef0dd;
+  --link-hover-color: #dae764;
+  --color-4: #c4d9ff;
+  --primary-font: forma-djr-banner;
+  --secondary-font: forma-djr-banner;
+  --body-text: Montserrat;
+  --button-text: Oswald;
+  --main-text-color: #000;
+  --white-space: 2rem;
+}
+
+body {
+  background-color: #0419ad;
+  background-image: linear-gradient(
+    45deg,
+    #0419ad 0%,
+    #c4d9ff 31%,
+    #fef0dd 63%,
+    #dae764 100%
+  );
+}
+
+h1,
+h2,
+h3 {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /*font-size: 4.5em;*/
+}
+
+p {
+  font-weight: 200;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 40px;
+  background: var(--link-hover-color);
+  text-align: center;
+  text-decoration: none;
+  font: bold 1.25em/1 var(--button-text);
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 0;
+  /* margin: 0 1rem 0 0; */
+}
+
+.secondary-button {
+  background: var(--color-5);
+}
+
+button:focus,
+button:active,
+button:focus-within {
+  outline: 0;
+  border-radius: 40px;
+}
+
+button:hover {
+  background-color: var(--color-4);
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: var(--bg-color);
+}
+
+/* Section 1 */
+
+.sec_1_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sec_1_text {
+  grid-area: 2/1;
+}
+
+#section_1 h1 {
+  font-size: 6em;
+}
+#sec_1_img {
+  width: 50vw;
+}
+
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 4 */
+
+/*Section 5*/
