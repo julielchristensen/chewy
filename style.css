@@ -113,6 +113,12 @@ button:active {
 
 /* Section 2 */
 
+#sec_2_vid {
+  width: 79vw;
+  height: 34vw;
+  background-color: white;
+}
+
 #sec_2_h2_1 h2 {
   font-size: 3rem;
 }
@@ -134,7 +140,7 @@ button:active {
 
 #sec_4_vid {
   width: 50%;
-  height: 50vw;
+  height: 30vw;
   background-color: white;
 }
 
