@@ -2,6 +2,10 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+img {
+  max-width: 100%;
 }
 
 :root {
@@ -17,15 +21,25 @@
   --white-space: 2rem;
 }
 
+.fs-1 {
+  font-size: 3rem !important;
+}
+
 body {
   background-color: #0419ad;
   background-image: linear-gradient(
     45deg,
-    #0419ad 0%,
-    #c4d9ff 31%,
+    #c4d9ff 0%,
     #fef0dd 63%,
     #dae764 100%
   );
+  /*background-color: #eadfcb;
+  background-image: linear-gradient(
+    19deg,
+    #eadfcb 0%,
+    #ddd6f3 50%,
+    #90c5d9 100%
+  );*/
 }
 
 h1,
@@ -37,10 +51,16 @@ h3 {
   /*font-size: 4.5em;*/
 }
 
-p {
+p,
+nav a {
   font-weight: 200;
 }
+/*Navbar*/
 
+.navbar-nav {
+  border-left: solid black 0.1rem;
+}
+/*Button*/
 button {
   padding: 1rem;
   border-radius: 40px;
@@ -97,11 +117,6 @@ button:active {
   font-size: 6rem;
 }
 
-#sec_1_img {
-  background-color: white;
-  height: 20vw;
-}
-
 #section_1 h3 {
   font-size: 5rem;
   align-self: center;
@@ -113,12 +128,6 @@ button:active {
 
 /* Section 2 */
 
-#sec_2_vid {
-  width: 79vw;
-  height: 34vw;
-  background-color: white;
-}
-
 #sec_2_h2_1 h2 {
   font-size: 3rem;
 }
@@ -129,19 +138,18 @@ button:active {
 
 /* Section 3 */
 
-.product_1_img,
-.product_2_img {
-  width: 100%;
-  height: 20vw;
-  background-color: white;
+#section_3 {
+  margin-top: 12rem;
 }
 
 /* Section 4 */
-
-#sec_4_vid {
-  width: 50%;
-  height: 30vw;
-  background-color: white;
+#section_4 {
+  margin-top: 12rem;
+  height: 80vh;
 }
 
 /*Section 5*/
+
+.username {
+  transform: rotate(-90deg);
+}
