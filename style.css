@@ -108,7 +108,7 @@ button:active {
 .sec_1_grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 5rem 1fr 2rem;
 }
 
 .sec_1_text {
@@ -124,8 +124,53 @@ button:active {
   align-self: center;
 }
 
+.lyserod_chewy {
+  position: absolute;
+  top: 2rem;
+  right: 12rem;
+  width: 800px;
+  transform: translatey(0px);
+  animation: floating 6s ease-in-out infinite;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.blaa_chewy {
+  position: absolute;
+  width: 800px;
+  top: 18rem;
+  right: -9rem;
+  transform: translatey(0px);
+  animation: floating 6s ease-in-out infinite;
+}
+
 .hashtag {
   height: 40vw;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* Section 2 */
@@ -138,10 +183,18 @@ button:active {
   font-size: 3rem;
 }
 
+.artist h2 {
+  letter-spacing: 1px;
+}
+
 /* Section 3 */
 
 #section_3 {
   margin-top: 12rem;
+}
+
+.product_text h3 {
+  letter-spacing: 1px;
 }
 
 /* Section 4 */
