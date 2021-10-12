@@ -60,7 +60,8 @@ nav a {
 /*Navbar*/
 
 .navbar-nav {
-  border-left: solid black 0.1rem;
+  border-right: solid black 0.1rem;
+  text-align: right;
 }
 /*Button*/
 button {
@@ -124,15 +125,6 @@ button:active {
   align-self: center;
 }
 
-.lyserod_chewy {
-  position: absolute;
-  top: 2rem;
-  right: 12rem;
-  width: 800px;
-  transform: translatey(0px);
-  animation: floating 6s ease-in-out infinite;
-}
-
 .floating {
   animation-name: floating;
   animation-duration: 3s;
@@ -152,11 +144,7 @@ button:active {
   }
 }
 
-.blaa_chewy {
-  position: absolute;
-  width: 800px;
-  top: 18rem;
-  right: -9rem;
+.will_change {
   transform: translatey(0px);
   animation: floating 6s ease-in-out infinite;
 }
