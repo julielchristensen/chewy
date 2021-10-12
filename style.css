@@ -34,7 +34,7 @@ body {
     /* #c4d9ff 100%,
     #fef0dd 63%,
     #dae764 0% */ #dae764 0%,
-    #fef0dd 63%,
+    #fef0dd 50%,
     #c4d9ff 100%
   );
   /*background-color: #eadfcb;
@@ -216,5 +216,3 @@ button:active {
 .username {
   transform: rotate(-90deg);
 }
-
-@mediaquery;
