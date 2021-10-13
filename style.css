@@ -221,3 +221,25 @@ button:active {
 .username {
   transform: rotate(-90deg);
 }
+
+@media screen and (max-width: 600px) {
+  .lyserod_chewy {
+    position: absolute;
+    top: -1rem;
+    right: 13rem;
+    height: 250px;
+  }
+
+  .blaa_chewy {
+    position: absolute;
+    top: 5rem;
+    right: 8rem;
+    width: 308px;
+  }
+
+  .logo {
+    margin-left: auto;
+    max-width: 75%;
+    margin-right: auto;
+  }
+}
