@@ -242,4 +242,8 @@ button:active {
     max-width: 75%;
     margin-right: auto;
   }
+
+  .burgermenu {
+    display: none;
+  }
 }
