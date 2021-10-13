@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --bg-color: #0419ad;
   --link-color: #fef0dd;
