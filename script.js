@@ -10,7 +10,7 @@ artists.forEach((element, index) => {
       trigger: element,
       start: "top 50%",
       toggleActions: "restart none none reverse",
-      //   markers: true,
+      markers: true,
     },
   });
 
