@@ -222,6 +222,12 @@ button:active {
   transform: rotate(-90deg);
 }
 
+/* Section 6 */
+
+#section_6 {
+  max-width: 1000px;
+}
+
 @media screen and (max-width: 600px) {
   .lyserod_chewy {
     position: absolute;
