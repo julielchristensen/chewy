@@ -186,6 +186,11 @@ button:active {
   color: var (--color-4);
 }
 
+/* Section 1a */
+
+#section_1a {
+  max-width: 1000px;
+}
 /* Section 2 */
 
 #sec_2_h2_1 h2 {
