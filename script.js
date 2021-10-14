@@ -4,7 +4,7 @@ const artists = gsap.utils.toArray(".artist");
 
 artists.forEach((element, index) => {
   let items = element.querySelectorAll(":scope > *");
-  let distance = index % 2 == 0 ? -100 : 100;
+  let distance = index % 2 == 0 ? 100 : -100;
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: element,
